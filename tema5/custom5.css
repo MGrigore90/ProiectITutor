@@ -1,0 +1,149 @@
+  *{
+    text-align: center;
+  }
+  body{
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+  #general{
+    color: darkblue;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0px;
+    }
+  h1{
+    color: brown;
+    border-bottom: 3px solid black;
+    }
+  h1.hidden {
+    visibility: hidden;
+  }
+  .p1joke{
+    color: darkorange;
+    text-align: left;
+    font-family: "Times New Roman", Georgia,Serif;
+    }
+  .p2joke{
+    text-align: left;
+    color: rgb(0, 0, 180)!important;
+    font-family: "Times New Roman", Georgia,Serif;
+    background-color: gray;
+    }
+  h4{
+    color: brown;
+    }
+  .main {
+    text-align: left;
+    font-family: "Times New Roman", Georgia,Serif;
+    color: purple;
+  }
+  #joke1{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: powderblue;
+    margin: 10px auto;
+    text-align: justify;
+    border: 2px solid red;
+    border-radius: 20px;
+    }
+  #joke2{
+    width: 800px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: LightGray;
+    margin: 40px auto;
+    text-align: justify;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-left-style: solid;
+    border-radius: 40px;
+    }
+    #joke3{
+    width: 690px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: powderblue;
+    margin: 10px auto;
+    text-align: justify;
+    border: 2px solid green;
+    border-radius: 20px;
+    }
+    .citate{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: red;
+    text-shadow: 1px 1px black;
+    font-size: 17px;
+    font-style: oblique;
+    width: 860px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: invert;
+    display: block;
+  }
+  li{
+      text-align: left;
+  }
+  table{
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  table,th,td{
+          border: 3px black;
+          border-style: double;
+          border-collapse: collapse;
+          height: 50px;
+  }
+  th{
+    background-color: blue;
+    text-align: left;
+    color: white;
+  }
+   td{
+    background-color: grey;
+    text-align: center;
+    color: black;
+  }
+  ul li {
+    list-style-type: circle;
+    background: #cce5ff;
+    margin: 5px;
+  }
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+    .imgbox {
+    border: 1px solid gray;
+    width: 170px;
+    height: 170px;
+    margin: 4px;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    }

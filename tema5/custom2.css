@@ -1,0 +1,30 @@
+*{
+	text-align: center;
+}
+body{
+	background-color: lightblue;
+}
+#general{
+	color: darkblue;
+	background-color: lightgray;
+	padding: 10px;
+	margin: 0px;
+	}
+h1{
+	color: brown;
+ 	border-bottom: 3px solid black;
+  }
+  h2{
+	color: darkorange;
+ 	}
+h3{
+	color: blue!important;
+  font-family: "Times New Roman", Georgia,Serif;
+	background-color: gray;
+	}
+pre{
+	color: red;
+	}
+li {
+    text-align: left;
+  }
