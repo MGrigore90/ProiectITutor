@@ -1,0 +1,122 @@
+*{
+	text-align: center;
+}
+body{
+	background-color: lightblue;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+#general{
+	color: darkblue;
+	background-color: lightgray;
+	padding: 10px;
+	margin: 0px;
+	}
+h1{
+	color: brown;
+ 	border-bottom: 3px solid black;
+  }
+h2{
+	color: darkorange;
+  text-align: left;
+ 	}
+h3{
+  text-align: left;
+	color: rgb(0, 0, 180)!important;
+  font-family: "Times New Roman", Georgia,Serif;
+	background-color: gray;
+	}
+h4{
+  color: yellow;
+  }
+h6{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 38%;
+  margin-left: 38%;
+	width: auto;
+  padding: 2%;
+  font-family: "Times New Roman", Georgia,Serif;
+	}
+#d1{
+	width: 600px;
+  padding: 20px;
+ 	box-sizing: border-box;
+ 	background-color: powderblue;
+ 	margin: 10px auto;
+ 	text-align: justify;
+  border: 2px solid red;
+  border-radius: 20px;
+  }
+#d2{
+	width: 700px;
+  padding: 30px;
+ 	box-sizing: border-box;
+ 	background-color: LightGray;
+ 	margin: 40px auto;
+ 	text-align: justify;
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: double;
+  border-left-style: solid;
+  border-radius: 40px;
+  }
+  p{
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: red;
+  text-shadow: 1px 1px black;
+  font-size: 17px;
+  font-style: oblique;
+  width: 1400px;
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: invert;
+}
+li{
+    text-align: left;
+}
+table{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table,th,td{
+        border: 3px black;
+        border-style: double;
+        border-collapse: collapse;
+        height: 50px;
+}
+th{
+  background-color: blue;
+  text-align: left;
+  color: white;
+}
+ td{
+  background-color: grey;
+  text-align: center;
+  color: black;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
