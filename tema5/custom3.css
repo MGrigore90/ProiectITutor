@@ -3,9 +3,9 @@
 }
 body{
 	background-color: lightblue;
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
+  	background-repeat: no-repeat;
+ 	 background-position: right top;
+  	background-attachment: fixed;
 }
 #general{
 	color: darkblue;
@@ -22,7 +22,7 @@ h1{
  	}
 h3{
 	color: rgb(0, 0, 180)!important;
-  font-family: "Times New Roman", Georgia,Serif;
+  	font-family: "Times New Roman", Georgia,Serif;
 	background-color: gray;
 	}
 pre{
@@ -35,8 +35,8 @@ pre{
  	background-color: powderblue;
  	margin: 10px auto;
  	text-align: justify;
-  border: 2px solid red;
-  border-radius: 20px;
+  	border: 2px solid red;
+  	border-radius: 20px;
 }
 #d2{
 	width: 500px;
@@ -45,19 +45,18 @@ pre{
  	background-color: LightGray;
  	margin: 40px auto;
  	text-align: justify;
-  border-top-style: dotted;
-  border-right-style: solid;
-  border-bottom-style: double;
-  border-left-style: solid;
-  border-radius: 40px;
+    border-top-style: dotted;
+ 	border-right-style: solid;
+  	border-bottom-style: double;
+  	border-left-style: solid;
+  	border-radius: 40px;
 }
 h6{
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 38%;
   margin-left: 38%;
-	width: auto;
+  width: auto;
   padding: 2%;
   font-family: "Times New Roman", Georgia,Serif;
-	
 	}
