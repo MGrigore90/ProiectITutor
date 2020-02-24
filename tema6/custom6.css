@@ -7,6 +7,23 @@
     background-position: right top;
     background-attachment: fixed;
   }
+
+  /* For tablets: */
+  @media only screen 
+  and (max-width:800px) {
+    .main, .p1joke, .p2joke, .p3joke, .citate {
+    width: 80%;
+    padding: 0;
+  }
+ }
+ 
+ /* For mobile phones: */
+@media only screen 
+and (max-width:480px) {
+    .main, .p1joke, .p2joke, .p3joke, .citate {
+    width: 100%;
+  }
+}
   #general{
     color: darkblue;
     background-color: lightgray;
