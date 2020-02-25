@@ -1,0 +1,193 @@
+*{
+    text-align: center;
+  }
+  body{
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+  
+  /* For tablets: */
+  @media only screen 
+  and (max-width:800px) {
+    .main, .first-person, .second-person, .text-style {
+    width: 80%;
+    padding: 0;
+  }
+ }
+ 
+ /* For mobile phones: */
+@media only screen 
+and (max-width:480px) {
+   .main, .first-person, .second-person, .text-style {
+    width: 100%;
+  }
+}
+  #general{
+    color: darkblue;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0px;
+    }
+  h1{
+    color: brown;
+    border-bottom: 3px solid black;
+    }
+   .first-person{
+    color: darkorange;
+    text-align: left;
+    font-family: "Times New Roman", Georgia,Serif;
+    }
+  .second-person{
+    text-align: left;
+    color: rgb(0, 0, 180)!important;
+    font-family: "Times New Roman", Georgia,Serif;
+           }
+ h2::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+ h3{
+    color: brown;
+    }
+  .main {
+    text-align: center;
+    font-family: "Times New Roman", Georgia,Serif;
+    color: purple;
+  }
+  .img-right {
+  float: right;
+  overflow: auto;
+  opacity: 0.5;
+}
+.img-left {
+  float: left;
+  overflow: auto;
+}
+  #blonde-joke{
+    width: auto;
+    height: 190px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: powderblue;
+    margin: 10px auto;
+    text-align: justify;
+    border: 2px solid red;
+    border-radius: 20px;
+    float: auto;
+           }
+   #pharmacy-joke{
+    width: auto;
+    height: 190px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: powderblue;
+    margin: 10px auto;
+    text-align: justify;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    float: center;
+    text-transform: none;
+    display: block;
+        }
+    #money-joke{
+    width: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: powderblue;
+    margin: 10px auto;
+    text-align: justify;
+    border: 2px solid green;
+    border-radius: 20px;
+    float: auto;
+    text-transform: none;
+    display: block;
+        }
+    .text-style{
+    line-height: 1.5;
+    display: inline-block;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px black;
+    font-size: 17px;
+    font-style: oblique;
+    max-width: 805px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: invert;
+      }
+  .nav {
+  background-color: grey;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+ .nav li {
+  display: inline-block;
+  font-size: 10px;
+  padding: 10px;
+  max-width: 200px;
+  }
+    a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ .img-container {
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 5px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  div.background {
+  background: url(https://wallpaperaccess.com/full/17497.jpg);
+  border: 1.5px solid black;
+}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 0.5px solid black;
+  opacity: 0.6;
+}
+div.transbox h2 {
+  margin: 5%;
+  font-weight: bold;
+  }
+footer {
+  border-radius: 10px;
+  height: 20px;
+  overflow-y: hidden;
+  margin: 0;
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: sticky;
+  bottom: 0;
+}

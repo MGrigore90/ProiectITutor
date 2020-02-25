@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Bancuri">
+<meta name="keywords" content="bancuri,glume,banc,gluma,funny,amuzament">
+<meta name="author" content="Grigore Mihai">
+<meta http-equiv="refresh" content="100">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="custom.css" /><title>Tema7 HTML& CSS</title>
+</head>
+<body>
+    <!-- Page title -->
+    <h1><center><strong>BANCURI
+    <sub><del><small><i>(part VI)
+</i></small></del></sub>
+    <ins><sup><small><em><mark>(part VII)
+</mark></em></small></sup></ins>
+</strong></center></h1>
+    <!-- Joke 1 -->
+      <img class="img-left" src="https://www.searchpng.com/wp-content/uploads/2019/02/Shocking-Pop-Art-Girl-PNG-715x715.png" width="150px" height="190px">
+            <div id="blonde-joke">
+        <p class="main"><b>Doua blonde se uitau cu interes la o pereche de manusi din cauciuc, intr-o vitrina...</b></p>
+      <h3 class="first-person">– La ce or fi bune manusile astea?</h3>
+<h3 class="second-person">– Eh, cum la ce?! Te poti spala pe maini fara sa te uzi!</h3>
+          </div>
+          <img class="img-right" src="https://pngimage.net/wp-content/uploads/2019/05/sick-child-clipart-png-.png" width="150px" height="190px">
+          <!-- Joke 2 -->
+          <div id="pharmacy-joke">
+       <p class="main"><b>Un tip intra intr-o farmacie.</b></p>
+           <h3 class="first-person">- Buna ziua! Aveti ceva contra tusei?</h3>
+<h3 class="second-person">- Nu, domnule, puteti tusi cat vreti.</h3>
+      </div>
+      <img class="img-left" src="https://pluspng.com/img-png/png-person-walking-people-walking-away-png-people-walking-license-1482.png" width="150px" height="190px"> 
+      <!-- Joke 3 -->
+      <div id="money-joke">
+      <p class="main"><b>Discutie intre 2 tipi:</b></p>
+      <h3 class="second-person">- Nevasta-mea imi cere in fiecare zi bani. Azi 600, ieri 800...</h3>
+<h3 class="first-person">– Pai ce face cu atatia bani?</h3>
+ <h3 class="second-person">– Habar n-am, ca nu i-am dat niciodata.</h3>
+      </div><br/>
+      <button onclick="myFunction()">Hide story</button>
+      <script>
+function myFunction() {
+  var x = document.getElementsByClassName("main");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; }
+}
+</script>
+<button onClick="history.go(0);">Refresh Page</button>
+<!-- floating img -->
+<div class="clearfix">
+  <div class="img-container">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/41GH2D%2BfYzL._SY355_.jpg" alt="zambeste!!!" width="100" height="100">
+  </div>
+  <div class="img-container">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/41GH2D%2BfYzL._SY355_.jpg" alt="zambeste!!!" width="100" height="100">
+  </div>
+   <div class="img-container">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/41GH2D%2BfYzL._SY355_.jpg" alt="zambeste!!!" width="100" height="100">
+  </div>
+</div>
+<br/>
+       <u><h3><b>&dArr;V&acirc;rsta &scedil;i patul&dArr;</b></h3></u>
+        <!-- more text -->      
+         <p class="text-style main"> 
+      &bull;La 8 ani: O duci &icirc;n pat &#351;i apoi &icirc;i spui o poveste.<br/>
+      &bull;La 18 ani: &Icirc;i spui o poveste &#351;i apoi o duci &icirc;n pat.<br/>
+&bull;La 28 de ani: Nu-i nevoie s&#259;-i spui o poveste ca s&#259; o duci &icirc;n pat.<br/>
+&bull;La 38 de ani: Ea &icirc;&#355;i spune o poveste ca s&#259; te duc&#259; &icirc;n pat.<br/>
+&bull;La 48 de ani: &Icirc;i spui o poveste ca s&#259; evi&#355;i s&#259; te duci &icirc;n pat<br/>
+&bull;La 58 de ani: Stai &icirc;n pat toat&#259; ziua ca s&#259; nu-i ascul&#355;i povestea.<br/>
+               </p>
+    <!-- END text -->
+               <div class="background">
+  <div class="transbox">
+  <h2>Rate this page</h2>
+  </div>
+</div>
+<div class="transbox">
+<form action="/tema7.php" method="post">
+  <label for="fname" maxlength="30" minlength="3" size="30">First name:</label><br/>
+  <input type="text" id="fname" name="fname" value=""><br/>
+  <label for="lname" maxlength="30" minlength="3" size="30">Last name:</label><br/>
+  <input type="text" id="lname" name="lname" value=""><br/>
+  <label for="date">Data completarii:</label><br/>
+  <input type="date" id="datemin" name="datemin" min="2020-01-01"><br/>
+  <label for="country_code">Country code:</label><br/>
+  <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br/>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male&male;</label><br/>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female&female;</label><br/>
+    <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other&#x2607;</label><br/>
+  <label for="points">Rating:</label><br/>
+  <input type="number" id="points" name="points" step="1" min="1" max="10">
+  <br/>
+  <br/>
+  <input type="submit" onclick="alert('Thx for visiting my page')" formenctype="multipart/form-data" value="Submit">
+  </form><br/>
+  </div>
+             <!-- list -->
+    <footer>
+    <ul class="nav">
+        <li><a href="#top">Du-te la inceput</a></li>
+        <li><a href="https://m.iabilet.ro/bilete-the-fool-venue-3205/" target="_blank">Du-te la Stand Up</a></li>
+        <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">Treci si mai invata</a></li>
+        <li><a href="#blonde-joke">Reciteste primul banc</a></li>
+        <li><a href="#money-joke">Reciteste ultimul banc</a></li>
+         </ul>
+    <!-- end list -->
+   </footer>
+  </body>
+</html>
