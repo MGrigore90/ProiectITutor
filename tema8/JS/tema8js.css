@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+  }
+  body{
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+  
+  /* For tablets: */
+  @media only screen 
+  and (max-width:800px) {
+    .main, .first-person, .second-person, .text-style {
+    width: 80%;
+    padding: 0;
+  }
+ }
+ 
+ /* For mobile phones: */
+@media only screen 
+and (max-width:480px) {
+   .main, .first-person, .second-person, .text-style {
+    width: 100%;
+  }
+  }
+  p{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: grey;
+    margin: 10px auto;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: auto;
+           }
+ h3::first-line {
+  color: blue;
+  font-variant: small-caps;
+}
