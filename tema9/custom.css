@@ -1,0 +1,270 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    counter-reset: section;
+}
+body{
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+/* For tablets: */
+@media only screen and (max-width:800px) {
+    .main, .first-person, .second-person {
+    width: 80%;
+    padding: 0;
+   }
+}
+/* For mobile phones: */
+@media only screen and (max-width:480px) {
+    .main, .first-person, .second-person {
+    width: 100%;
+   }
+}
+/* For gallery */
+@media only screen and (max-width: 700px) {
+    .responsive {
+    width: 50%;
+    margin: 6px 0;
+   }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+    width: 100%;
+   }
+}
+#general{
+    color: darkblue;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0px;
+}
+canvas{
+    width: 200px;
+    height: 90px;
+    margin-left: 50%;
+}
+#line{
+    width: 100%;
+    margin: 0;
+}
+h3{
+    font-size: 4vmin;
+    }
+h2{
+    text-align: left;
+    color: red;
+    }
+.first-person{
+    color: darkorange;
+    text-align: left;
+    font-family: "Times New Roman", Georgia,Serif;
+}
+.second-person{
+    text-align: left;
+    color: rgb(0, 0, 180)!important;
+    font-family: "Times New Roman", Georgia,Serif;
+}
+ h5{
+    color: brown;
+    font-size: 4vmin;
+    counter-reset: subsection;
+}
+h5::before {
+ counter-increment: section;
+ content: "Section " counter(section) ". ";
+ }
+h6{
+    color: pink;
+    font-size: 4vmin;
+}
+h6::before {
+ counter-increment: subsection;
+ content: counter(section) "." counter(subsection) " ";
+}
+.header {
+ background-color: #f1f1f1;
+ padding: 20px;
+ text-align: center;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+ float: left;
+ padding: 10px;
+}
+/* Left column */
+.column.left {
+ width: 70%;
+}
+/* Middle column */
+.column.middle {
+ width: 15%;
+}
+/* Right column */
+.column.right {
+ width: 15%;
+}
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .column.side, .column.middle {
+   width: 100%;
+ }
+}
+  #first-joke{
+    width: 100vmin;
+    height: 60vmin;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: powderblue;
+    margin: 10px auto;
+    text-align: justify;
+    border: 2px solid red;
+    border-radius: 20px;
+    float: auto;
+}
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px;
+    max-width: 200px;
+    border-right: 1px solid #bbb;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+li:last-child {
+    border-right: none;
+}
+/* Dropup Button */
+.dropbtn {
+    color: white;
+    border: none;
+}
+/* The container <div> - needed to position the dropup content */
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 34px;
+    left: -40px;
+    background-color: grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+/* Links inside the dropup */
+.dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropup links on hover */
+.dropup-content a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+    display: block;
+}
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+    background-color: none;
+}
+* {
+ box-sizing: border-box;
+}
+input[type=text], select, textarea {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ resize: vertical;
+}
+label {
+ padding: 12px 12px 12px 0;
+ display: inline-block;
+}
+input[type=submit] {
+ background-color: #4CAF50;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ float: right;
+}
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+.container {
+ border-radius: 5px;
+ background-color: #f2f2f2;
+ padding: 20px;
+}
+.col-25 {
+ float: left;
+ width: 25%;
+ margin-top: 6px;
+}
+.col-75 {
+ float: left;
+ width: 75%;
+ margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .col-25, .col-75, input[type=submit] {
+   width: 100%;
+   margin-top: 0;
+ }
+}
+footer {
+    background-color: grey;
+    border-radius: 10px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    padding: 0;
+}

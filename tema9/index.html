@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Bancuri">
+  <meta name="keywords" content="bancuri,glume,banc,gluma,funny,amuzament">
+  <meta name="author" content="Grigore Mihai">
+  <meta http-equiv="refresh" content="10000">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="custom.css" />
+  <title>Tema9 HTML& CSS</title>
+</head>
+<body>
+  <!-- Page title using svg -->
+  <div class="header">
+  <center>
+  <svg height="130" width="300">
+  <defs>
+    <linearGradient id="grad1" x1="1%" y1="1%" x2="100%" y2="0%">
+    <stop offset="5%" style="stop-color:rgb(245,245,0);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(245,0,0);stop-opacity:2" />
+    </linearGradient>
+  </defs>
+    <ellipse cx="100" cy="70" rx="160" ry="55" fill="url(#grad1)" />
+    <text fill="#ffffff" font-size="50" font-family="Verdana" x="50" y="86">Bancuri</text>
+  </svg>
+  </center>
+  </div>
+  <!-- line brake using canvas -->
+  <canvas id="mycanvas"></canvas>
+  <canvas id="line"></canvas>
+  <br/>
+  <!-- Content row 1 -->
+  <div class="row">
+    <div class="column left">
+  <!-- Joke 1 -->
+      <div id="first-joke">
+      <h3 class="first-person">– Ce cadou i-ai facut mamei tale de 8 Martie?</h3>
+    <h3 class="second-person">– O minge!</h3>
+    <h3 class="first-person">– Pai si o foloseste mama ta sau ii este utila?</h3>
+    <h3 class="second-person">– Pai ce ea nu mi-a cumpart de ziua mea carti?!!</h3>
+      </div>
+    </div>
+      <div class="column middle">
+      <h5>FRUCTE:</h5>
+      <h6>Mere</h6>
+      <h6>Pere</h6>
+      <h6>Gutui</h6>
+      <h6>Struguri</h6>
+      </div>
+      <div class="column right">
+      <h5>LEGUME</h5>
+      <h6>Rosii</h6>
+      <h6>Castraveti</h6>
+      <h6>Ceapa</h6>
+      </div>
+  </div>
+  <div class="row">
+  </div>
+  <h1>
+  JavaScript
+  </h1>
+  <h2>
+  EX1:JavaScript Random  
+  </h2>
+  <p>Here you can generate your lucky Lotto Numbers (just try 6 clicks and note them)</p>
+  <p id="lotto"></p>
+  <button onclick="document.getElementById('lotto').innerHTML = getRndInteger(1,49)">Click Me</button>
+  <br/>
+  <h2>
+  EX2:Conditional (Ternary) Operator  
+  </h2>
+  <input id="age"/>
+  <p id="exercitiu"></p>
+  <button onclick="myFunction()">Verifica ce se spune despre viata ta</button>
+  <br/>
+  <h2>
+  EX3:The JavaScript Switch Statement 
+  </h2>
+  <p id="demo"></p>
+  <br/> 
+  <!-- form --> 
+  <div class="container">
+  <form action="/tema9.php" method="post">
+    <div class="row">
+      <div class="col-25">
+      <label for="fname" maxlength="30" minlength="3" size="30">First name:</label><br/>
+      </div>
+      <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      <label for="lname" maxlength="30" minlength="3" size="30">Last name:</label><br/>
+     </div>
+      <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-25">
+        <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+        <select id="country" name="country">
+        <option value="Abrud">Abrud</option>
+        <option value="Adjud">Adjud</option>
+        <option value="Agnita">Agnita</option>
+        <option value="Aiud">Aiud</option>
+        <option value="Alba Iulia">Alba Iulia</option>
+        <option value="Alesd">Ale&#351;d</option>
+        <option value="Alexandria">Alexandria</option>
+        <option value="Anina">Anina</option>
+        <option value="Aninoasa">Aninoasa</option>
+        <option value="Arad">Arad</option>
+        <option value="Ardud">Ardud</option>
+        <option value="Avrig">Avrig</option>
+        <option value="Azuga">Azuga</option>
+        <option value="Babadag">Babadag</option>
+        <option value="Băbeni">B&#x103;beni</option>
+        <option value="Bacău">Bac&#x103;u</option>
+        <option value="Baia de Aramă">Baia de Aram&#x103;</option>
+        <option value="Baia de Arieș">Baia de Arie&#351;</option>
+        <option value="Baia Mare">Baia Mare</option>
+        <option value="Baia Sprie">Baia Sprie</option>
+        <option value="Băicoi">B&#x103;icoi</option>
+        <option value="Băile Govora">B&#x103;ile Govora</option>
+        <option value="Băile Herculane">B&#x103;ile Herculane</option>
+        <option value="Băile Olănești">B&#x103;ile Ol&#x103;ne&#x15F;ti</option>
+        <option value="Băile Tușnad">B&#x103;ile Tu&#x15F;nad</option>
+        <option value="Băilești">B&#x103;ile&#x15F;ti</option>
+        <option value="Bălan">B&#x103;lan</option>
+        <option value="Bălcești">B&#x103;lce&#x15F;ti</option>
+        <option value="Balș">Bal&#x15F;</option>
+        <option value="Baraolt">Baraolt</option>
+        <option value="Bârlad">B&#xE2;rlad</option>
+        <option value="Bechet">Bechet</option>
+        <option value="Beclean">Beclean</option>
+        <option value="Beiuș">Beiu&#351;</option>
+        <option value="Berbești">Berbe&#351;ti</option>
+        <option value="Berești">Bere&#351;ti</option>
+        <option value="Bicaz">Bicaz</option>
+        <option value="Bistrița">Bistri&#x21B;a</option>
+        <option value="Blaj">Blaj</option>
+        <option value="Bocșa">Boc&#351;a</option>
+        <option value="Boldești-Scăeni">Bolde&#351;ti-Sc&#x103;eni</option>
+        <option value="Borșa">Bor&#351;a</option>
+        <option value="Borsec">Borsec</option>
+        <option value="Botoșani">Boto&#351;ani</option>
+        <option value="Brad">Brad</option>
+        <option value="Bragadiru">Bragadiru</option>
+        <option value="Brăila">Br&#x103;ila</option>
+        <option value="Brașov">Bra&#351;ov</option>
+        <option value="Breaza">Breaza</option>
+        <option value="Brezoi">Brezoi</option>
+        <option value="Broșteni">Bro&#351;teni</option>
+        <option value="Bucecea">Bucecea</option>
+        <option value="București">Bucure&#351;ti</option>
+        <option value="Budești">Bude&#351;ti</option>
+        <option value="Buftea">Buftea</option>
+        <option value="Buhuși">Buhu&#351;i</option>
+        <option value="Bumbești-Jiu">Bumbe&#351;ti-Jiu</option>
+        <option value="Bușteni">Bu&#351;teni</option>
+        <option value="Buzău">Buz&#x103;u</option>
+        <option value="Buziaș">Buzia&#351;</option>
+        </select>
+        </div>
+      </div>
+      <label for="date">Date:</label><br/>
+     <input type="date" id="datemin" name="datemin" min="2020-01-01"><br/>
+     <label for="points">Rating:</label><br/>
+     <input type="number" id="points" name="points" step="1" min="1" max="10">
+  <br/>
+  <br/>
+  <input type="submit" onclick="alert('Thx for visiting my page')" formenctype="multipart/form-data" value="Submit">
+  </form><br/>
+  </div>
+  <!-- footer -->
+  <footer>
+  <ul class="nav">
+  <li><a href="#top">Du-te la inceput</a></li>
+  <li><a href="https://m.iabilet.ro/bilete-the-fool-venue-3205/" target="_blank">Du-te la Stand Up</a></li>
+  <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">Treci si mai invata</a></li>
+    <li class="dropup dropbtn">
+    <a href="javascript:void(0)" class="dropbtn">Reciteste bancurile</a>
+      <div class="dropup-content">
+      <a href="#first-joke">Primul banc</a>
+      </div>                            
+    </li>
+  </ul>
+  <!-- end footer -->
+  </footer>
+</body>
+</html>
