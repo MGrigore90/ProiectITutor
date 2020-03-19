@@ -1,0 +1,68 @@
+<?php
+<!-- create a cookie -->
+$cookie_name = "user";
+$cookie_value = "MihaiG";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+?>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta name="author" content="Grigore Mihai">
+<meta http-equiv="refresh" content="1000">
+     <link rel="stylesheet" type="text/css" href="custom.css" /><title>Tema10 JS</title>
+</head>
+<body>
+    <h1><center><strong>Tema 10
+        <ins><sup><small><em><mark>(JS)
+        </mark></em></small></sup></ins>
+    </strong></center></h1>
+    <h2>
+    -LOOP-
+    </h2>
+<h3>
+The For Loop (ex:nr. pare pana la 10)
+</h3>
+<p id="exercise1"></p>
+    <h3>
+    The For/In Loop
+    </h3>
+    <p id="exercise2"></p>
+<h3>JavaScript For/Of Loop</h3>
+<p id="exercise3"></p>
+    <h3>While Loop (numaratoare descrescatoare)</h3>
+    <p id="exercise4"></p>
+<h3>JavaScript DO While Loop (numaratoare descrescatoare din 2 in 2) </h3>
+<p id="exercise5"></p>
+    <h3>JavaScript Break</h3>
+    <p id="exercise6"></p>
+<h3>JavaScript Continue</h3>
+<h4>-Un loop cu <i><b>continue statement</b></i>-</h4>
+<h4>-Acest loop sare peste numerele pare-</h4>
+<p id="exercise7"></p>
+    <h3>JavaScript Conversion </h3>
+    <p id="exercise8" style="font-family:courier"></p>
+<h3>JavaScript String Search</h3>
+<p>Mihai</p>
+<p id="exercise9"></p>
+<script src="custom.js"></script>
+    <h3>JavaScript String Search & Replacement</h3>
+    <button onclick="myFunction()">Try it</button>
+    <p id="exercise10">Mihai in the site owner.</p>
+    <script src="custom.js"></script>
+<h3>Search "Corona" (Regular Expressions) and validate the math using test()</h3>
+<p id="e11">Primul deces de Corona in Romania: o persoana a deschis debaraua si au cazut cele 30 de KG de faina achizitionate pentru carantina peste aceasta...</p>
+<p id="exercise11"></p>
+    <h3>Searches a string for a specified pattern, and returns the found text as an object Using exec()</h3>
+    <p id="exercise12"></p>
+<h3>JS Errors (try/catch/finally )</h3>
+<h4>Please input a number between 10 and 20:</h4>
+<input id="exercise13" type="text">
+<button type="button" onclick="myFunction()">Test</button>
+<p id="p13"></p>
+<script src="custom.js"></script>
+    <h3>The JavaScript this Keyword</h3>
+        <p>
+        <button onclick="this.style.display='none'">Click to Remove Me!</button>here you have a hidden used button
+        </p>
+</body>
+</html>  
